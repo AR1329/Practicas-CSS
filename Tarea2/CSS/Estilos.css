@@ -1,23 +1,28 @@
-h2{
-    color: crimson;
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 23.8px;
 }
-.class1{
-    color: crimson;
+h1{
+    text-decoration-line: underline;
+    color: red;
 }
-p{
-    color: rgb(36, 36, 241);
-}
-.class2{
+.sec1{
     color: blue;
-    background: rgb(255, 255, 136);
-    font-style: oblique;
-}
 
-.sectext > p{
-color: black;
 }
-
-.sub{
+.sec1 span{
+    color: red;
+    text-decoration-line: underline;
+}
+.sec1 mark{
+    background-color: rgb(228, 228, 144);
+    color: darkblue;
+}
+.sec2 span{
+    background-color: black;
     color: yellow;
-    background: black;
+}
+.sec2 u{
+    color: red;
 }
