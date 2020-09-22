@@ -1,0 +1,34 @@
+
+body{
+    background: #B2FFB4;
+    margin: 3;
+    padding: 0;
+    
+}
+body{ color: blue;
+    
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: maroon;
+}
+ul > li > p {
+    color: green;
+}
+span{
+    color: blue;
+}
+.Hipertexto{
+    font-size: 30px;
+    font-weight: 100;
+}
+.Marca{
+    margin: auto;
+    color: #ffffff;
+    background: black;
+}
+      
