@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
-
 body{
-    background: #aaaaaa;
+    background: crimson;
+    width: 70%;
+    height: 50%;
+    margin: 5% 20%;
 }
 
 h1{
-    background: #ffa29c;
-    color: blueviolet;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
-h2{
-    color: blue;
+.letragrande{
+    font-size: 2em;
+    font-style: italic;
+
+
 }
 
-.E{
-    font-size: 3px;
-    color: brown;
+div > h2 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+div > h2::first-letter{
+    font-size: 2em;
+    font-style: italic;
 }
