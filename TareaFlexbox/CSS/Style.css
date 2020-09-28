@@ -1,12 +1,12 @@
 body {
     padding: 0;
     box-sizing: border-box;
-    padding: 12px;
+    padding: 15px;
    margin: 5px;
   }
 
    div{
-    background-color: rgb(217, 135, 250);
+    background-color: #922CF1;
     border: black;
     padding: 12px;
     width:50%;
@@ -27,7 +27,7 @@ h2{
  .flex-start > div{
     width: 30px;
     height: 30px;
-    background: rgb(255, 166, 0);
+    background: #F08310;
     border-radius: 20%;
     margin: 10px;
     padding: 20px;
@@ -41,7 +41,7 @@ h2{
 .flex-end > div{
   width: 30px;
   height: 30px;
-  background:  rgb(255, 166, 0);
+  background: #F08310;
   border-radius: 20%;
   margin: 10px;
   padding: 20px;
@@ -54,49 +54,49 @@ h2{
  .center > div{
   width: 30px;
   height: 30px;
-  background:  rgb(255, 166, 0);
+  background: #F08310;
   border-radius: 20%;
   margin: 10px;
   padding: 20px;
  }
 
- .between{
+ .space-between{
    display: flex;
   justify-content: space-between;
  }
 
- .between > div{
+ .space-between > div{
   width: 30px;
   height: 30px;
-  background:  rgb(255, 166, 0);
+  background: #F08310;
   border-radius: 20%;
   margin: 10px;
   padding: 20px;
  }
 
- .around{
+ .space-around{
    display: flex;
    justify-content: space-around;
  }
 
- .around > div{
+ .space-around > div{
   width: 30px;
   height: 30px;
-  background:  rgb(255, 166, 0);
+  background: #F08310;
   border-radius: 20%;
   margin: 10px;
   padding: 20px;
  }
 
- .evenly{
+ .space-evenly{
    display: flex;
    justify-content: space-evenly;
  }
 
- .evenly > div {
+ .space-evenly > div {
   width: 30px;
   height: 30px;
-  background:  rgb(255, 166, 0);
+  background:  #F08310;
   border-radius: 20%;
   margin: 10px;
   padding: 20px;
