@@ -1,0 +1,721 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #8351fa;
+    text-transform: capitalize; 
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cuadromorado{ 
+    width: 20%;
+    height: 30vh;
+    background: #9c33ff;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 {
+    width: 70%;
+    height: 30vh;
+    background: #9c33ff;
+    border: 2px solid #000000;
+}
+
+
+.cuadromorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start; 
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #ff9640;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #ff9640;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #ff9640;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #ff9640;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #ff9640;
+    margin: 23% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadromorado > .stretch > .cuadro1{
+    width: 23%;
+    height: 225px;
+    background: #ff9640;
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro2{
+    width: 23%;
+    height: 225px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro3{
+    width: 23%;
+    height: 225px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro4{
+    width: 23%;
+    height: 225px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadromorado2 > .baseline > .cuadro1{
+    width: 23%;
+    height: 70px;
+    background: #ff9640;
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cuadromorado2 > .baseline > .cuadro2{
+    width: 23%;
+    height: 25px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cuadromorado2 > .baseline > .cuadro3{
+    width: 23%;
+    height: 50px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cuadromorado2 > .baseline > .cuadro4{
+    width: 23%;
+    height: 40px;
+    background: #ff9640;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.fila{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+ }
+ 
+.cuadromorado > .flexstart{
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .flexstart > .cuadro1{
+    height: 25px;
+    width: 23%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro2{
+    height: 25px;
+    width: 40%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro3{
+    height: 25px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro4{
+    height: 25px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro5{
+    height: 25px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro6{
+    height: 25px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro7{
+    height: 25px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro8{
+    height: 25px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstart > .cuadro9{
+    height: 25px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    margin: 5% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro1{
+    height: 25px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro2{
+    height: 27px;
+    width: 45%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro3{
+    height: 27px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro4{
+    height: 27px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro5{
+    height: 27px;
+    width: 15%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro6{
+    height: 27px;
+    width: 38%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro7{
+    height: 27px;
+    width: 15%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro8{
+    height: 27px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexend > .cuadro9{
+    height: 27px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexcenter{
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    margin: 5% 0%;
+}
+
+.cuadromorado > .flexcenter > .cuadro1{
+    height: 40px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 20% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro2{
+    height: 40px;
+    width: 40%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 20% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro3{
+    height: 40px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 20% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro4{
+    height: 40px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -19% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro5{
+    height: 40px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -19% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro6{
+    height: 40px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -19% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro7{
+    height: 40px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -19% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro8{
+    height: 40px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -6% 0.50%;
+}
+.cuadromorado > .flexcenter > .cuadro9{
+    height: 40px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: -6% 0.50%;
+}
+
+.cuadromorado > .flexstrech{
+    display: flex;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .flexstrech > .cuadro1{
+    height: 65px;
+    width: 23%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro2{
+    height: 65px;
+    width: 40%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro3{
+    height: 65px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro4{
+    height: 65px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro5{
+    height: 65px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro6{
+    height: 65px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro7{
+    height: 65px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro8{
+    height: 65px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .flexstrech > .cuadro9{
+    height: 65px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between{
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .space-between > .cuadro1{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 5% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro2{
+    height: 50px;
+    width: 40%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 5% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro3{
+    height: 50px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 5% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro4{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro5{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro6{
+    height: 50px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro7{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 6% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro8{
+    height: 50px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-between > .cuadro9{
+    height: 50px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+.cuadromorado > .space-around{
+    display: flex;
+    align-content: space-around;
+    flex-flow: row wrap;
+}
+
+.cuadromorado > .space-around .cuadro1{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro2{
+    height: 50px;
+    width: 40%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro3{
+    height: 50px;
+    width: 27%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro4{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro5{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro6{
+    height: 50px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro7{
+    height: 50px;
+    width: 20%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 3% 1%;
+}
+
+.cuadromorado > .space-around .cuadro8{
+    height: 50px;
+    width: 25%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 2% 1%;
+}
+
+.cuadromorado > .space-around .cuadro9{
+    height: 50px;
+    width: 30%;
+    background-color: #ff9640;
+    border: 2px solid black;
+    margin: 2% 1%;
+}
