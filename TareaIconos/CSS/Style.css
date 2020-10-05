@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    color: #000000;
+    font-style: italic;
+}
+
+.fila1{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.icono1{
+    width: 7%;
+    height: 15vh;
+    background: #ff00dd;
+    border: 2px;
+}
+.icono1 .fa{
+    width: 50%;
+    height: 20%;
+}
+.icono2{
+    width: 7%;
+    height: 15vh;
+    background: rgb(0, 153, 255);
+    border: 2px ;
+}
+.icono2 > .fa{
+    width: 50%;
+    height:20%;
+}
+.icono3{
+    width: 7%;
+    height: 15vh;
+    background: rgb(250, 37, 37);
+    border: 2px ;
+}
+.icono3 > .fa{
+    width: 50%;
+    height:20%;
+}
+.fila2{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.icono4{
+    width: 7%;
+    height: 15vh;
+    background: rgb(173, 0, 0);
+    border: 2px;
+}
+.icono4 > .fa{
+    width: 50%;
+    height: 20%;
+}
+.icono5{
+    width: 7%;
+    height: 15vh;
+    background: rgb(0, 102, 255);
+    border: 2px;
+}
+.icono5 > .fa{
+    width: 50%;
+    height: 20%;
+}
+.icono6{
+    width: 7%;
+    height: 15vh;
+    background: rgb(51, 129, 247);
+    border: 2px;
+}
+.icono6 > .fa{
+    width: 50%;
+    height: 20%;
+}
+.fila3{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.icono7{
+    width: 7%;
+    height: 15vh;
+    background: rgb(255, 230, 0);
+    border: 2px;
+}
+.icono7 > .fa{
+    width: 50%;
+    height: 20%;
+}
+ .icono8{
+    width: 7%;
+    height: 15vh;
+    background: rgb(70, 73, 241);
+    border: 2px;
+ }
+ .icono8 > .fa{
+     width: 50%;
+     height: 20%;
+ }
+ .icono9{
+    width: 7%;
+    height: 15vh;
+    background: rgb(194, 0, 0);
+    border: 2px;
+ }
+ .icono9 > .fa{
+     width: 50%;
+     height: 20%;
+ }
+ a > .fa{
+    font-size: 80px;
+    padding-left:15% ;
+    margin-top: 5%;
+  cursor: pointer;
+  color: white;
+
+}
+a > .fa:hover{
+    color: rgb(7, 0, 0);
+}
+
+
+
