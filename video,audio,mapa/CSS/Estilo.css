@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 7, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 25%;
+}
+
+iframe{
+    margin: 2% 32%;
+}
