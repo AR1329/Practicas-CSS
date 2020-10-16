@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+span{
+    color: rgb(163, 255, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+hr{
+    width: 95%;
+    margin: 2%;
+}
+
+.menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 1%;
+    margin-left: 5%; */
+    /* cursor: pointer; */
+}
+
+.menu > ul{
+    display: flex;
+    float: left;
+    width: 50%;
+}
+.menu > ul > li {
+    float: left;
+    position: relative;
+    /* width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff; */
+    margin-left: 10%;
+    /* text-align: center;
+    line-height: 40px; */
+}
+
+.menu > ul > li > a{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    line-height: 53px;
+    margin: 1% 1%;
+    text-decoration: none;
+}
+
+.menu > ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    margin: 13% 2%;
+    text-align: center;
+}
+
+.menu > ul > li :hover > ul{
+    display: block;
+}
+
+.menu > ul > li > a:hover{
+    color: #3d90c0;
+}
+
+.menu > ul > li > ul > li >a{
+    color: #3d90c0;
+    width: 100%;
+    line-height: 33px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu > ul > li >ul > li > a:hover{
+    color: #3d90c0;
+}
+.texto2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 10vh;
+    /* justify-content: space-around; */
+    margin-left: 6%;
+}
+.texto2 > pre{
+    color: rgb(4, 219, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    height: 10vh;
+    font-size: 30px;
+}
+
+.texto2 > p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60%;
+    height: 10vh;
+    font-size: 25px;
+}
+
+.Slider{
+    margin-left: 5%;
+    width: 90%;
+    height: 150%;
+    overflow: hidden;
+}
+
+.Slider > ul{
+    display: flex;
+    padding: 5px;
+    width: 200%;
+    animation: Slider 10s infinite alternate;
+}
+
+.Slider > li{
+    width: 100%;
+    list-style: none;
+}
+
+.Slider > ul > li > img{
+    width: 98%;
+    height: 100%;
+}
+
+@keyframes Slider{
+
+    0%{
+        margin-left: 0%;
+    } 
+    20%{
+        margin-left: 0%;
+    } 
+    25%{
+        margin-left: -10%;
+    }
+    45%{
+        margin-left: -10%;
+    }
+    50%{
+        margin-left: -20%;
+    }
+    70%{
+        margin-left: -30%;
+    }
+    75%{
+        margin-left: -30%;
+    }
+    80%{
+        margin-left: -40%;
+    }
+    100%{
+        margin-left: -50%;
+    }
+}
+
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+a > .fa{
+    font-size: 20px;
+    padding-left:30% ;
+    margin-top: 1%;
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 30%;
+}
+
+.iconos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0% 5%;
+}
+.iconos > a > .fa{
+    font-size: 20px;
+    width: 10%;
+    height: 10%;
+    padding: 0px 15px;
+}

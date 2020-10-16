@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+span{
+    color: rgb(163, 255, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+hr{
+    width: 95%;
+    margin: 2%;
+}
+
+.menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 1%;
+    margin-left: 5%; */
+    /* cursor: pointer; */
+}
+
+.menu > ul{
+    display: flex;
+    float: left;
+    width: 50%;
+}
+.menu > ul > li {
+    float: left;
+    position: relative;
+    /* width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff; */
+    margin-left: 10%;
+    /* text-align: center;
+    line-height: 40px; */
+}
+
+.menu > ul > li > a{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    line-height: 53px;
+    margin: 1% 1%;
+    text-decoration: none;
+}
+
+.menu > ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    margin: 13% 2%;
+    text-align: center;
+}
+
+.menu > ul > li :hover > ul{
+    display: block;
+}
+
+.menu > ul > li > a:hover{
+    color: #3d90c0;
+}
+
+.menu > ul > li > ul > li >a{
+    color: #3d90c0;
+    width: 100%;
+    line-height: 33px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu > ul > li >ul > li > a:hover{
+    color: #3d90c0;
+}
+
+.contacto{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    height: 100%;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 8%;
+}
+
+.contacto > .Datos{
+    width: 60%;
+    height: 50%;
+    margin-left: 2%;
+}
+
+.contacto > .Datos > form > input{
+    width: 50%;
+    height: 5vh;
+    background: rgb(240, 105, 206);
+    color: #ffffff;
+    margin: 1%;
+}
+
+.contacto > .Datos > form > input::placeholder{
+    color: #ffffff;
+    padding-left: 1%;
+}
+
+.contacto > .Datos > form > input:hover{
+    border: solid 2px #ffffff ;
+}
+
+.contacto > .Datos > form > textarea{
+    background:  rgb(240, 105, 206);
+    color: #ffffff;
+    padding-left: 2%;
+    width: 50vh;
+    height: 50%;
+    margin-top: 4%; 
+
+}
+
+.contacto > .Datos > form > textarea:hover{
+    border: #ffffff solid 2px;
+}
+
+.contacto > .Datos > form > .boton{
+    margin-left: 38%;
+
+}
+
+.contacto .Datos > form > .boton > input{
+    background: rgb(240, 105, 206);
+    width: 20%;
+    height: 5vh;
+    padding-left: 1%;
+    color: #ffffff;
+}
+
+.contacto .Datos > form > .boton > input:hover{
+    background: rgb(133, 2, 104);
+}
+
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+a > .fa{
+    font-size: 20px;
+    padding-left:30% ;
+    margin-top: 1%;
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 30%;
+}
+
+.iconos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0% 5%;
+}
+.iconos > a > .fa{
+    font-size: 20px;
+    width: 10%;
+    height: 10%;
+    padding: 0px 15px;
+}
+
+

@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+span{
+    color: rgb(163, 255, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+hr{
+    width: 95%;
+    margin: 2%;
+}
+.menu{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 3%; */
+    /* margin-left: 5%; */
+    cursor: pointer;
+}
+
+.menu > ul{
+    display: flex;
+    float: left;
+    width: 70%;
+}
+
+.menu > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.menu > ul > li > a{
+
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a{
+    color:  rgb(192, 219, 192);
+}
+
+.menu > ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.menu > ul > li > ul > li > a{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li > ul > li:hover > a{
+   color:  rgb(192, 219, 192);
+}
+
+.menu > ul > li:hover > ul{
+    display: block;
+    margin: 4% 2%;
+}
+.Parrafo{
+    display: flex;
+    flex-flow: row wrap;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+.Parrafo > .titulo{
+    font-size: 15px;
+    color: rgb(62, 143, 112);
+}
+
+.Parrafo > .titulo > pre{
+    font-size: 30px;
+}
+
+.Slider{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Slider > ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: Slider 10s infinite alternate;
+}
+
+.Slider > ul > li{
+    width: 50%;
+    list-style: none;
+}
+
+.Slider > ul > li > img{
+    width: 96%;
+    margin: 20% 4%;
+}
+
+@keyframes Slider{
+
+    0%{
+        margin-left: 0%;
+    } 
+    20%{
+        margin-left: 0%;
+    } 
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -200%;
+    }
+    100%{
+        margin-left: -200%;
+    }
+}
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+a > .fa{
+    font-size: 20px;
+    padding-left:30% ;
+    margin-top: 1%;
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 30%;
+}
+
+.iconos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0% 5%;
+}
+.iconos > a > .fa{
+    font-size: 20px;
+    width: 10%;
+    height: 10%;
+    padding: 0px 15px;
+}
